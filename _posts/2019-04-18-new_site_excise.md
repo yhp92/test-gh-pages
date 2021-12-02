@@ -1,26 +1,31 @@
 ---
-title: "Example: Embedding Folium charts"
-date: 2019-04-13
-published: true
-tags: [dataviz, folium]
-excerpt: "Embedding interactive Folium charts on static pages using Jekyll."
-folium-loader:
-  folium-chart-1: ["charts/foliumChart.html", "400"] # second argument is the height
-  folium-chart-2: ["charts/percent_no_internet.html", "400"] # second argument is the height
-toc: true
-toc_sticky: true
+title: "Welcome to GitHub Pages!"
+date: 2019-04-18
+categories:
+  - blog
+tags:
+  - Github Page
+  - update
 ---
 
-This post will show examples of embedding interactive maps produced using [Folium](https://github.com/python-visualization/folium).
+You'll find this post in your `_posts` directory. Go ahead and edit it and commit your changes to to the repository. GitHub will automatically rebuild your site. Wait a few minutes and then refresh the site link to see the new changes. There are two main ways to make changes to your site:
 
-## OSMnx and Street Networks
+- Edit files within your in the browser at GitHub.com
+- Clone down your repository and make updates locally, then push them to your GitHub repository.
 
-The shortest route between the Art Museum and the Liberty Bell:
+**To add new posts:** Add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<div id="folium-chart-1"></div>
+Jekyll also offers powerful support for code snippets:
 
-## Percentage of Households without Internet
+```python
+def print_message(message):
+  print(message)
 
-<div id="folium-chart-2"></div>
+print_message("Welcome to GitHub Pages")
+```
 
-See the [lecture 9B slides](https://musa-550-fall-2021.github.io/slides/lecture-9B.html) and the [lecture 10A slides](https://musa-550-fall-2021.github.io/slides/lecture-10A.html) for the code that produced these plots.
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]: https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
